@@ -1,0 +1,10 @@
+{
+    "type": "pascal",
+    "data_aug": true,
+    "embedding_dim": 32,
+    "synthetic_data": true,
+    "warp": true,
+    "pascal_train": false,
+    "source": "imagenet_imagenet"
+}
+

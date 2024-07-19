@@ -48,6 +48,16 @@ ln -s $PWD/syn_images_cropped_bkg_overlaid $PROJECT_PATH/datasets
 
 Please note that when using Pascal3D+, the data annotations will be generated during the first run of the program.
 
+
+## Equivolumetric distretization of SO(3)
+We used the code from Implicit-PDF (https://implicit-pdf.github.io/) to generate equivolumetric samples of SO(3).
+
+By default, we used `grids3.npy`, which is stored in this repository.
+For more pre-sampled grids, please refer to this [Google drive](https://drive.google.com/drive/folders/188-ivOJleXXQZPUjWIBxwkW5RrZIhyUG?usp=sharing).
+The Eq_grids files contain different numbers of samples for both the rotation matrix (grids{l}) and the quaternion (gridsq{l}). 
+The number of samples is 72 * 8^l.
+
+
 # Usage
 
 ## Train

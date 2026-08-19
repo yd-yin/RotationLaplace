@@ -1,3 +1,5 @@
+
+
 # [ICLR2023 Spotlight] A Laplace-inspired Distribution on SO(3) for Probabilistic Rotation Estimation
 
 Project page: https://pku-epic.github.io/RotationLaplace/
@@ -17,7 +19,7 @@ Project page: https://pku-epic.github.io/RotationLaplace/
 - Other dependencies
 
   ```bash
-  pip install opencv-python tqdm matplotlib scipy lmdb pyyaml wget scikit-image tensorboard tensorboardX
+  pip install opencv-python tqdm matplotlib scipy lmdb pyyaml wget scikit-image tensorboard tensorboardX pillow
   ```
 
 ## Dataset
